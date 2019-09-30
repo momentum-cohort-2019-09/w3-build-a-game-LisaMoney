@@ -4,10 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <script src="keyboarder.js"></script>
+  <title>Dat Game</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: black;
+    }
+
+    .game-container {
+      width: 600px;
+      margin: 2rem auto;
+    }
+  </style>
+
+  <script src="keyboarder.js" defer></script>
 </head>
 <body>
-  
+  <div class="game-container">
+    <canvas id="game-canvas" width="600" height="400"></canvas>
+  </div>
 </body>
 </html>
